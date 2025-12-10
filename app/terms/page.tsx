@@ -11,7 +11,7 @@ export default function TermsPage() {
       <section style={{ marginBottom: "30px" }}>
         <h2 style={{ fontSize: "24px", marginBottom: "10px" }}>1. Acceptance of Terms</h2>
         <p style={{ lineHeight: 1.7, opacity: 0.9 }}>
-          By using The Pitch Deck (“the App”), you agree to these Terms & Conditions and our Privacy Policy.
+          By using The Pitch Deck (the App), you agree to these Terms & Conditions and our Privacy Policy.
           Guest users may access gameplay features without creating an account.
         </p>
       </section>
