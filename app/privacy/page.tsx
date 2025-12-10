@@ -11,35 +11,49 @@ export default function PrivacyPage() {
       <section style={{ marginBottom: "30px" }}>
         <h2 style={{ fontSize: "24px", marginBottom: "10px" }}>Overview</h2>
         <p style={{ lineHeight: 1.7, opacity: 0.9 }}>
-          The Pitch Deck (“we”, “our”, “us”) values your privacy. This Privacy Policy describes how we collect,
-          use, and protect your personal information.
+          The Pitch Deck (“we”, “our”, “us”) values your privacy. This Privacy Policy explains
+          what information we collect and how it is used within the app.
         </p>
       </section>
 
       <section style={{ marginBottom: "30px" }}>
         <h2 style={{ fontSize: "24px", marginBottom: "10px" }}>Information We Collect</h2>
+        <p style={{ lineHeight: 1.7, opacity: 0.9 }}>
+          The app can be used in Guest Mode without providing any personal information.
+          If you choose to create an account, we may collect:
+        </p>
         <ul style={{ lineHeight: 1.8 }}>
-          <li>Email Address</li>
+          <li>Email address (optional, only for registered accounts)</li>
           <li>Username</li>
           <li>Authentication & session data (Supabase)</li>
-          <li>Device information for app analytics</li>
         </ul>
+        <p style={{ lineHeight: 1.7, opacity: 0.9, marginTop: "10px" }}>
+          We do <strong>not</strong> collect device identifiers or analytics data.
+        </p>
       </section>
 
       <section style={{ marginBottom: "30px" }}>
         <h2 style={{ fontSize: "24px", marginBottom: "10px" }}>How We Use Your Information</h2>
         <ul style={{ lineHeight: 1.8 }}>
-          <li>Account creation and identity verification</li>
-          <li>Enabling multiplayer gameplay and friend features</li>
-          <li>Improving app performance and user experience</li>
+          <li>Allowing you to create and manage an account (optional)</li>
+          <li>Enabling multiplayer gameplay features such as lobbies and friends</li>
+          <li>Maintaining secure sessions and app functionality</li>
         </ul>
+      </section>
+
+      <section style={{ marginBottom: "30px" }}>
+        <h2 style={{ fontSize: "24px", marginBottom: "10px" }}>Guest Mode</h2>
+        <p style={{ lineHeight: 1.7, opacity: 0.9 }}>
+          Users may access gameplay features without creating an account. Guest users do not
+          provide personal information, and no identifying data is stored.
+        </p>
       </section>
 
       <section style={{ marginBottom: "30px" }}>
         <h2 style={{ fontSize: "24px", marginBottom: "10px" }}>Account Deletion</h2>
         <p style={{ lineHeight: 1.7, opacity: 0.9 }}>
-          You may request to permanently delete your account directly inside the app. All related data will be
-          removed.
+          Registered users may request to permanently delete their account directly inside the app.
+          All related data will be removed.
         </p>
       </section>
 
