@@ -12,38 +12,38 @@ export default function TermsPage() {
         <h2 style={{ fontSize: "24px", marginBottom: "10px" }}>1. Acceptance of Terms</h2>
         <p style={{ lineHeight: 1.7, opacity: 0.9 }}>
           By using The Pitch Deck (“the App”), you agree to these Terms & Conditions and our Privacy Policy.
+          Guest users may access gameplay features without creating an account.
         </p>
       </section>
 
       <section style={{ marginBottom: "30px" }}>
         <h2 style={{ fontSize: "24px", marginBottom: "10px" }}>2. User Responsibilities</h2>
         <ul style={{ lineHeight: 1.8 }}>
-          <li>Do not misuse the app or attempt to disrupt gameplay.</li>
-          <li>You are responsible for keeping your account secure.</li>
+          <li>Do not misuse the App or attempt to disrupt gameplay.</li>
+          <li>Account creation is optional. If you choose to register, you are responsible for keeping your login credentials secure.</li>
         </ul>
       </section>
 
       <section style={{ marginBottom: "30px" }}>
         <h2 style={{ fontSize: "24px", marginBottom: "10px" }}>3. Prohibited Use</h2>
         <ul style={{ lineHeight: 1.8 }}>
-          <li>Harassment or abusive behavior</li>
-          <li>Illegal activity or content</li>
-          <li>Reverse engineering or hacking attempts</li>
+          <li>Harassment, abusive behavior, or inappropriate content</li>
+          <li>Illegal activity or attempts to harm the App or other users</li>
+          <li>Reverse engineering, unauthorized access, or hacking attempts</li>
         </ul>
       </section>
 
       <section style={{ marginBottom: "30px" }}>
         <h2 style={{ fontSize: "24px", marginBottom: "10px" }}>4. Termination</h2>
         <p style={{ lineHeight: 1.7, opacity: 0.9 }}>
-          We reserve the right to suspend or delete your account if these terms are violated.
+          We may suspend or delete your account if you violate these Terms. Guest users may stop using the App at any time.
         </p>
       </section>
 
       <section style={{ marginBottom: "30px" }}>
         <h2 style={{ fontSize: "24px", marginBottom: "10px" }}>5. Liability Disclaimer</h2>
         <p style={{ lineHeight: 1.7, opacity: 0.9 }}>
-          The App is provided “as is” without warranties. We are not responsible for any damages resulting from
-          the use of the App.
+          The App is provided “as is” without warranties of any kind. We are not liable for any damages resulting from your use of the App.
         </p>
       </section>
 
