@@ -5,7 +5,7 @@ export default function HomePage() {
     <main style={{ maxWidth: 980, margin: "0 auto", padding: "60px 20px" }}>
       <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 28 }}>
         <img
-          src="/logo.png"
+          src="/icon.png"
           alt="The Pitch Deck logo"
           style={{
             width: 64,
@@ -48,6 +48,21 @@ export default function HomePage() {
             }}
           >
             Available on the App Store
+          </a>
+
+          <a
+            href="#support"
+            style={{
+              display: "inline-block",
+              padding: "12px 18px",
+              borderRadius: 12,
+              fontWeight: 700,
+              textDecoration: "none",
+              border: "1px solid rgba(0,0,0,0.12)",
+              color: "inherit",
+            }}
+          >
+            Support
           </a>
 
           <a
@@ -97,10 +112,53 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section style={{ marginTop: 34, paddingTop: 18, borderTop: "1px solid rgba(0,0,0,0.08)" }}>
-        <p style={{ margin: 0, opacity: 0.6 }}>
-          © {new Date().getFullYear()} The Pitch Deck
+      {/* SUPPORT */}
+      <section
+        id="support"
+        style={{
+          marginTop: 34,
+          paddingTop: 18,
+          borderTop: "1px solid rgba(0,0,0,0.08)",
+        }}
+      >
+        <h2 style={{ fontSize: 24, marginBottom: 10 }}>Support</h2>
+        <p style={{ lineHeight: 1.8, opacity: 0.85, marginTop: 0 }}>
+          Need help with The Pitch Deck? Contact us and we’ll get back to you as soon as possible.
         </p>
+
+        <div style={{ lineHeight: 1.9, opacity: 0.85 }}>
+          <div>
+            <b>Email:</b>{" "}
+            <a href="mailto:support@thepitchdeck.store" style={{ color: "inherit" }}>
+              support@thepitchdeck.store
+            </a>
+          </div>
+          <div>
+            <b>Common topics:</b> login issues, lobby / matchmaking, purchases, ads, bugs & feedback.
+          </div>
+        </div>
+
+        <div style={{ marginTop: 16 }}>
+          <a
+            href="mailto:support@thepitchdeck.store?subject=The%20Pitch%20Deck%20Support"
+            style={{
+              display: "inline-block",
+              padding: "12px 18px",
+              borderRadius: 12,
+              fontWeight: 700,
+              textDecoration: "none",
+              background: "rgba(0,0,0,0.06)",
+              border: "1px solid rgba(0,0,0,0.12)",
+              color: "inherit",
+            }}
+          >
+            Email Support
+          </a>
+        </div>
+      </section>
+
+      <section style={{ marginTop: 34, paddingTop: 18, borderTop: "1px solid rgba(0,0,0,0.08)" }}>
+        <p style={{ margin: 0, opacity: 0.6 }}>© {new Date().getFullYear()} The Pitch Deck</p>
       </section>
     </main>
   );
